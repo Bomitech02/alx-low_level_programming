@@ -1,23 +1,32 @@
+#include <stdlib.h>
 #include <stdio.h>
-/**
- *  main - print if the number is postive, zero, or negative
- *  Description: using the main function
- *  this program prints "Programming is positive, zero, or negative
- *  Return: 0
- */
+#include <time.h>
 
+/**
+ * main - Prints base 16
+ * @void: Empty parameter list for main.
+ *
+ * Description: Prints all hexadecimals
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
-	char c;
+	int num = 48;
 
-	for (c = '0'; c <= '9'; c++)
+	while (num <= 57)
 	{
-		putchar(c);
+		putchar(num);
+		num++;
 	}
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
 
+	num = 97;
+
+	while (num <= 102)
+	{
+		putchar(num);
+		num++;
+	}
 	putchar('\n');
 	return (0);
 }
