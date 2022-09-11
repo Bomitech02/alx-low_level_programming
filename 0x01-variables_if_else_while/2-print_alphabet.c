@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 /**
  * main - print if the number is positive, zero, or negative
  *
@@ -9,10 +11,12 @@
 
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
-		 putchar(ch);
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
