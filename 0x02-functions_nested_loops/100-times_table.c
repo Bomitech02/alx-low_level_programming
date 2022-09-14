@@ -5,7 +5,7 @@
  * RReturn: Always 0 (Success)
  */
 
-void print_times_table(int n)
+void print_times_ta:ble(int n)
 {
-		return (0);
+	return (0);
 }
