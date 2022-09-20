@@ -27,4 +27,6 @@
  * print a triangle of n size
  * reset_to_98 - takes pointer int and update the value to 8
  */
-void reset_to_98(int *n;
+void reset_to_98(int *n);
+int main(void);
+void swap (int *a, int *b;
