@@ -1,10 +1,12 @@
 #include "main.h"
 
-/*
- * _strstr: function locate
- * @haystack: pointer to char
- * @needle: pointer to char
- * Return: 0
+/**
+ *  _strstr - locates a substring
+ *
+ *  @haystack: the longer string to search
+ *  @needle: the first occurrence of the substring
+ *
+ *  Return: a pointer beg of substring or @Null if it not foound.
  */
 
 char *_strstr(char *haystack, char *needle)
