@@ -1,10 +1,10 @@
- #include "main.h"
+#include "main.h"
 
- /**
-  * _strlen_recursion - size
-  * @s: pointer to string params
-  * Return: recursion
-  */
+/**
+ *  _strlen_recursion - returns the length of a string
+ *  @s: pointer the string
+ *  Return: int
+ */
 
 int _strlen_recursion(char *s)
 {
