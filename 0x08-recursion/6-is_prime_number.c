@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recursion - main funct
- * @n: int  n 
+ * @n: int  n
  * Return: int
  */
 
@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
  *  @n: integer param
  *  @i: integer param
  *  Return: sqrt
- *      */
+ */
 
 int _sqrt(int n, int i)
 {
@@ -28,4 +28,3 @@ int _sqrt(int n, int i)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
- 
