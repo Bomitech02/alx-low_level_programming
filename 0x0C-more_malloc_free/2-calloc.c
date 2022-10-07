@@ -1,20 +1,30 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * string_noncatcreate_array -
- * 
- * @size: size of array
+ * _calloc - allocates memory for an array of @nmemb elements of
  *
- * @c: char to assign
- * Description:
+ * @size bytes each and returns a pointer to the allocated memory.
+ * @nmemb: allocate memory for array
  *
- * Return:
+ * @size: allocate element of size bytes
+ *
+ * Return: pointer to the allocated memory.
  *
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	return (0);
+	char *a;
+	unsigned int b;
+
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
+	a = malloc(nmemb * size);
+	if (a == NULL)
+		return (NULL);
+
+	for (b = 0; b < (nmemb * size); b++)
+		a[b] = 0;
+	return (a);
 }
